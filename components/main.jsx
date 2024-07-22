@@ -9,7 +9,7 @@ export function Main() {
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
           <BotIcon className="h-6 w-6" />
-          <span className="pl-2">ApplyGPT</span>
+          <span className="pl-2 lg:block hidden">ApplyGPT</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link href="#features" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
@@ -32,8 +32,8 @@ export function Main() {
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Automate Your Job Applications with ApplyGPT
+                  <h1 className="text-3xl font-normal tracking-tighter sm:text-5xl xl:text-6xl/none">
+                    Automate Your Job Applications with <span className="bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text bg-300% animate-gradient font-black">ApplyGPT</span>
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl py-4">
                     ApplyGPT is a powerful Chrome extension that uses AI to automatically fill out job application
@@ -105,7 +105,7 @@ export function Main() {
                     <div className="grid gap-1">
                       <h3 className="text-xl font-bold">Resume Optimization</h3>
                       <p className="text-muted-foreground">
-                        ApplyGPT can analyze job listings and optimize your resume to better match the requirements.
+                        ApplyGPT can analyze job listings and optimize your resume/cover letter to better match the requirements.
                       </p>
                     </div>
                   </li>
@@ -233,8 +233,8 @@ export function Main() {
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 border-t flex flex-col items-center" id="download">
           <div className="container px-4 md:px-6">
-            <div className="grid gap-10 sm:px-10 md:gap-16 md:grid-cols-2">
-              <div className="space-y-4">
+            <div className="grid gap-10 sm:px-10 md:gap-16 md:grid-cols-2 ">
+              <div className="flex flex-col items-center space-y-4 text-center space-y-4">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Download</div>
                 <h2 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
                   Get ApplyGPT and Streamline Your Job Search
@@ -247,7 +247,7 @@ export function Main() {
                   Install Now
                 </Link>
               </div>
-              <div className="flex flex-col items-start space-y-4 ">
+              <div className="flex flex-col items-center space-y-4 text-center">
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Security</div>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed">
                   ApplyGPT is a secure and privacy-focused extension that respects your data. Your personal information
