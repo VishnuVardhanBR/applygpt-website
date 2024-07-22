@@ -8,8 +8,8 @@ export function Main() {
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
-          <BotIcon className="h-6 w-6" />
-          <span className="pl-2 lg:block hidden">ApplyGPT</span>
+          <BotIcon className="h-6 w-6 pr-2" />
+          <span className="lg:block hidden">ApplyGPT</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link href="#features" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
