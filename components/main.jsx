@@ -190,6 +190,21 @@ export function Main() {
             </div>
             <div className="mx-auto grid max-w-7xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <div className="flex flex-col justify-center space-y-4">
+
+                <div className="grid gap-4 rounded-lg border p-6">
+                  <div className="flex items-start gap-4">
+                    <Avatar>
+                      <AvatarImage src="/placeholder-user.jpg" />
+                      <AvatarFallback>JA</AvatarFallback>
+                    </Avatar>
+                    <div>
+                      <p className="text-lg font-medium">Yadhu Vamshi</p>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground">
+                    "Absolutely amazing extension! It effortlessly fills in all application form details with incredible accuracy. A true timesaver, highly recommended!"
+                  </p>
+                </div>
                 <div className="grid gap-4 rounded-lg border p-6">
                   <div className="flex items-start gap-4">
                     <Avatar>
@@ -198,26 +213,10 @@ export function Main() {
                     </Avatar>
                     <div>
                       <p className="text-lg font-medium">Karthikeya Uppu</p>
-                      <p className="text-muted-foreground">Full Stack Developer</p>
                     </div>
                   </div>
                   <p className="text-muted-foreground">
                     "Works really well. Highly recommended for job seekers."
-                  </p>
-                </div>
-                <div className="grid gap-4 rounded-lg border p-6">
-                  <div className="flex items-start gap-4">
-                    <Avatar>
-                      <AvatarImage src="/placeholder-user.jpg" />
-                      <AvatarFallback>JA</AvatarFallback>
-                    </Avatar>
-                    <div>
-                      <p className="text-lg font-medium">Anirudh</p>
-                      <p className="text-muted-foreground">Student</p>
-                    </div>
-                  </div>
-                  <p className="text-muted-foreground">
-                    "Performed better than expected!"
                   </p>
                 </div>
               </div>
